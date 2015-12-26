@@ -1,8 +1,3 @@
-/*
-	File: fn_stripDownPlayer.sqf
-	Author: Tobias 'Xetoxyc' Sittenauer
-	Description: Strip the player down
-*/
 
 //waitUntil{backpack player == "tf_anprc155"};
 //removeBackpack player;

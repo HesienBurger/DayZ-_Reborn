@@ -1,13 +1,6 @@
+player enableSimulation false;
+
 execVM "core\init.sqf"; // connects to core init
+//execVM "core\looploot.sqf";
 
-
-
-
-
-
-
-
-
-
-
-// connect to database
+// createDialog "mainmenu";

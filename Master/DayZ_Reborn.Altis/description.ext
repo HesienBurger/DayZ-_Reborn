@@ -1,5 +1,5 @@
 author = "Heisen"; // Don't remove credits
-onLoadName = "DayZ Reborn";
+onLoadName = "DayZ Reborn V0.0.1";
 onLoadMission = "A survival mission developed by Heisen";
 //loadScreen = "loadup.jpg";
 joinUnassigned = 1;
