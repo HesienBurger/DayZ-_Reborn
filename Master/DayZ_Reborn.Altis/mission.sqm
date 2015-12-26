@@ -6,13 +6,19 @@ class Mission
 		"a3_map_altis",
 		"A3_Characters_F_Civil",
 		"a3_characters_f",
-		"A3_Characters_F_BLUFOR"
+		"A3_Characters_F_BLUFOR",
+		"A3_Structures_F_EPC_Civ_Accessories",
+		"A3_Structures_F_Furniture",
+		"A3_Structures_F_Research"
 	};
 	addOnsAuto[]=
 	{
 		"A3_Characters_F_Civil",
 		"a3_characters_f",
 		"A3_Characters_F_BLUFOR",
+		"A3_Structures_F_EPC_Civ_Accessories",
+		"A3_Structures_F_Furniture",
+		"A3_Structures_F_Research",
 		"a3_map_altis"
 	};
 	randomSeed=12390572;
@@ -38,7 +44,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=21;
+		items=25;
 		class Item0
 		{
 			side="CIV";
@@ -447,7 +453,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14730.754,17.91,16698.947};
+					position[]={13831.91,17.092413,16286.456};
 					id=20;
 					side="WEST";
 					vehicle="B_Soldier_F";
@@ -456,6 +462,162 @@ class Mission
 					skill=0.60000002;
 				};
 			};
+		};
+		class Item21
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13786.61,14.640761,16318.521};
+					azimut=64.628502;
+					offsetY=0.00149822;
+					id=21;
+					side="CIV";
+					vehicle="C_man_p_beggar_F";
+					leader=1;
+					skill=0.5;
+					init=" this allowDamage false; this enableSimulation false; this addAction [""Access Weapon Trader"", ""trader.sqf""];";
+				};
+			};
+		};
+		class Item22
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13784.91,14.654995,16321.021};
+					azimut=72.857803;
+					offsetY=0.00146484;
+					id=22;
+					side="CIV";
+					vehicle="C_man_p_beggar_F";
+					leader=1;
+					skill=0.5;
+					init=" this allowDamage false; this enableSimulation false; this addAction [""Access Weapon Trader"", ""trader.sqf""];";
+				};
+			};
+		};
+		class Item23
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13783.21,14.550129,16323.622};
+					azimut=76.311699;
+					offsetY=0.00143433;
+					id=23;
+					side="CIV";
+					vehicle="C_man_p_beggar_F";
+					leader=1;
+					skill=0.5;
+					init=" this allowDamage false; this enableSimulation false; this addAction [""Access Weapon Trader"", ""trader.sqf""];";
+				};
+			};
+		};
+		class Item24
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13781.811,14.448588,16326.222};
+					azimut=68.829201;
+					offsetY=0.00146008;
+					id=24;
+					side="CIV";
+					vehicle="C_man_p_beggar_F";
+					leader=1;
+					skill=0.5;
+					init=" this allowDamage false; this enableSimulation false; this addAction [""Access Weapon Trader"", ""trader.sqf""];";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=6;
+		class Item0
+		{
+			position[]={13796.311,14.641961,16311.122};
+			azimut=197.88499;
+			id=25;
+			side="EMPTY";
+			vehicle="Land_Atm_01_F";
+			skill=0.60000002;
+			init=" this allowDamage false;";
+		};
+		class Item1
+		{
+			position[]={13787.41,14.617851,16318.921};
+			azimut=238.063;
+			offsetY=0.0046272301;
+			id=26;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			skill=0.60000002;
+		};
+		class Item2
+		{
+			position[]={13785.71,14.621797,16321.421};
+			azimut=238.19299;
+			offsetY=-4.3869e-005;
+			id=27;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			skill=0.60000002;
+		};
+		class Item3
+		{
+			position[]={13784.11,14.543066,16324.122};
+			azimut=238.14799;
+			offsetY=0.0074996902;
+			id=28;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			skill=0.60000002;
+		};
+		class Item4
+		{
+			position[]={13782.41,14.441618,16326.622};
+			azimut=238.188;
+			offsetY=4.7683702e-006;
+			id=29;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			skill=0.60000002;
+		};
+		class Item5
+		{
+			position[]={13803.01,14.424219,16333.521};
+			offsetY=9.5367398e-007;
+			id=30;
+			side="EMPTY";
+			vehicle="Land_Dome_Big_F";
+			skill=0.60000002;
+			init=" this allowDamage false;";
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={13801.814,14.436355,16333.695};
+			name="TraderZone";
+			text="Trader Zone";
+			type="mil_flag";
+			colorName="ColorOrange";
 		};
 	};
 };
