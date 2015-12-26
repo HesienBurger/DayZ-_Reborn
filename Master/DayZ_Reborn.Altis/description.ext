@@ -1,0 +1,14 @@
+author = "Heisen"; // Don't remove credits
+onLoadName = "DayZ Reborn";
+onLoadMission = "A survival mission developed by Heisen";
+//loadScreen = "loadup.jpg";
+joinUnassigned = 1;
+respawn = BASE;
+respawndelay = 5;
+disabledAI = true;
+
+#include "dialog\dialog.h"
+
+class CfgFunctions {
+	#include "reborn.h"
+};
